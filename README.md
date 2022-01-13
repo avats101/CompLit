@@ -10,8 +10,15 @@ This dataset consists of approximately 3000 entries of literary passages that ha
 
 The literary excerpts that have been provided consist of a variety of passages of varying levels of reading complexity varying from that of the level of a third grader to that of a twelfth grader. The target variable is used to indicate the complexity of any given passage. The target variable ranges from the values of -3.6 to +1.7. The more positive values indicate an easier level of complexity while the more negative values indicate a harder complexity. The standard error shows the spread of the scores among multiple raters provided for each passage.
 
-## Methodology
-The proposed methodology is as follows :
+## Architecture
+![BERT Arch](img/1.png?raw=true "BERT Arch" )
+
+![RoBERTa Arch](img/2.png?raw=true "RoBERTa Arch" )
+
+## Flow Diagram
+
+![Flow](img/3.png?raw=true "Flow" )
+
 1. Each excerpt is first tokenized and converted to a vector representation using the appropriate pretrained tokenizers of BERT and RoBERTa.
 2. A base pretrained model for BERT and RoBERTa has been imported as a local variable and additional layers according to our problem statement are being added and compiled(transfer learning).
 3. The vectors are then sent as input to the model (BERT and RoBERTa respectively). 
@@ -22,6 +29,7 @@ The proposed methodology is as follows :
 
 ## Results
 
+![Results](img/4.png?raw=true "Results" )
 Ranking prediction made for a random sample data, gives 10th standard as  the result which is similar to score obtained by the Flesch-Kincaid Grade Level. 
 
 ## Future Work
