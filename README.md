@@ -1,3 +1,8 @@
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
+
 # CompLit
 Complexity Analysis of Literary texts using BERT AND RoBERTa
  
