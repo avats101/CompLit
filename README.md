@@ -13,8 +13,10 @@ The literary excerpts that have been provided consist of a variety of passages o
 ## Architecture
 ![BERT Arch](img/1.png?raw=true "BERT Arch" )
 
+BERT Architecture
 ![RoBERTa Arch](img/2.png?raw=true "RoBERTa Arch" )
 
+RoBERTa Architecture
 ## Flow Diagram
 
 ![Flow](img/3.png?raw=true "Flow" )
@@ -29,11 +31,12 @@ The literary excerpts that have been provided consist of a variety of passages o
 
 ## Results
 
-![Results](img/4.png?raw=true "Results" )
+![Results](img/4.png?raw=true "Results")
+
 Ranking prediction made for a random sample data, gives 10th standard as  the result which is similar to score obtained by the Flesch-Kincaid Grade Level. 
 
 ## Future Work
-further training and fine-tuning both the BERT and roBERTa models to achieve greater levels of accuracy on the same data to have better results, working on a web interface for our project would be one of our objectives. We also wish to train these models to be multilingual and hence wish to work on better datasets.
+Further training and fine-tuning both the BERT and roBERTa models to achieve greater levels of accuracy on the same data to have better results, working on a web interface for our project would be one of our objectives. We also wish to train these models to be multilingual and hence wish to work on better datasets.
 
 ## Contributors 
 <a href="https://github.com/avats101/CompLit/graphs/contributors">
