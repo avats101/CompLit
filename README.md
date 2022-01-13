@@ -14,6 +14,7 @@ The literary excerpts that have been provided consist of a variety of passages o
 ![BERT Arch](img/1.png?raw=true "BERT Arch" )
 
 BERT Architecture
+
 ![RoBERTa Arch](img/2.png?raw=true "RoBERTa Arch" )
 
 RoBERTa Architecture
