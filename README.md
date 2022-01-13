@@ -11,7 +11,7 @@ This dataset consists of approximately 3000 entries of literary passages that ha
 The literary excerpts that have been provided consist of a variety of passages of varying levels of reading complexity varying from that of the level of a third grader to that of a twelfth grader. The target variable is used to indicate the complexity of any given passage. The target variable ranges from the values of -3.6 to +1.7. The more positive values indicate an easier level of complexity while the more negative values indicate a harder complexity. The standard error shows the spread of the scores among multiple raters provided for each passage.
 
 ## Architecture
-![BERT Arch](img/1.png?raw=true "BERT Arch" )
+![BERT Arch](img/1.png?raw=true "BERT Arch" align=center)
 
 BERT Architecture
 
